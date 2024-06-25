@@ -1,0 +1,145 @@
+
+
+    body{
+        background:linear-gradient(orange, white, rgb(94, 233, 94));
+    }
+
+
+    h1
+    {
+        text-align: center;
+        font-size: 70px;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        border-radius: 50%;
+        background-color: rgb(238, 245, 245);
+        transition: all 10s ease; 
+        animation-name: curve;
+         animation-duration: 10s;
+         animation-iteration-count: infinite;
+     }
+ 
+ 
+ @keyframes curve{
+ 
+     0%{
+         border-style: none;
+     }
+     10% {
+        box-shadow: 10px 0px 0px 0px black;
+ 
+     }
+     25%{
+        box-shadow: 0px 10px 0px 0px black;
+        background:linear-gradient(white, rgb(43, 217, 162));
+     }
+     50%{
+        box-shadow: 0px 0px 10px 0px black;
+ 
+     }
+     75%{
+        box-shadow: 0px 0px 0px 10px black;
+     }
+ 
+ }
+    h3
+    {
+        text-align: center;
+    }
+    #img-div
+    {
+        text-align: center;
+        padding: 10px;
+    }
+    img
+    {
+        width: 500px;
+        border-radius: 50%;
+        object-fit: contain;
+        box-shadow: 0px 0px 10px 10px blue;
+        opacity:0;
+    }
+
+    img:hover{
+        zoom:120%;
+    }
+    p
+    {
+        margin-top: 10px;
+        color:  #0939cb;
+        font-size: 18px;
+        line-height : 122%;
+    }
+    #img-caption
+    {
+        font-size: x-large;
+        color: #c713c7;
+    }
+    #award-list
+    {
+        font-size: 18px;
+    }
+    #tribute-link a
+    {
+        color: #091477;
+        padding: 8px;
+        font-size: 20px;
+        text-decoration:wavy;
+        font-style: oblique;
+    }
+     #tribute-link a:hover
+    {
+        color:rgb(165, 12, 12);
+        font-size: 22px;
+        
+    }
+    h4
+    {
+        font-size: x-large;
+        text-align: center;
+        font-family:Arial, Helvetica, sans-serif;
+    }
+    aside
+    {
+        text-align:right;
+        padding-right: 300px;
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 20px;
+    }
+
+    h2{
+       transition: all 10s ease; 
+       animation-name: line;
+        animation-duration: 10s;
+        animation-iteration-count: infinite;
+    }
+
+
+@keyframes line{
+
+    0%{
+        border-style: none;
+    }
+    10% {
+        border-width: 0px 0px 10px 0px;
+        border-color: #cb0940;
+        border-style: inset;
+
+    }
+    25%{
+        border-width: 0px 0px 0px 10px;
+        border-color: #cb0940;
+        border-style: inset;
+    }
+    50%{
+        border-width: 10px 0px 0px 0px;
+        border-color: #cb0940;
+        border-style: inset;
+
+    }
+    75%{
+        border-width: 0px 10px 0px 0px;
+        border-color: #cb0940;
+        border-style: inset;
+    }
+
+}
